@@ -7,7 +7,7 @@ from pygments.lexers import guess_lexer_for_filename
 from pygments.formatters import TerminalFormatter
 
 
-class ProgrammerColor(FileReaderBase):
+class SyntaxColor(FileReaderBase):
     """
         A simple screen that displays colorized source code.
     """
